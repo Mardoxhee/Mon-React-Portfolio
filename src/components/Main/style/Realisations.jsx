@@ -67,6 +67,8 @@ const Realisation = styled.section`
   .projets--wrapper {
     display: flex;
     flex-wrap: wrap;
+    justify-content:center;
+    align-items:center;
   }
   .card {
     margin: 20px;

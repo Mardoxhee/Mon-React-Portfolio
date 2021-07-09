@@ -16,8 +16,26 @@ const SectionAvis = () => {
             Chiruza chris <span>DG Radio Kivu</span>
           </h6>
         </div>
-        <div></div>
-        <div></div>
+
+           <div className="avisman">
+          <img src={bg} alt="" />
+          <p>
+            Personnellement je suis très satisfait du Travail de Mardoxhée,...
+          </p>
+          <h6>
+            Chiruza chris <span>DG Radio Kivu</span>
+          </h6>
+        </div>
+        
+        <div className="avisman">
+          <img src={bg} alt="" />
+          <p>
+            Personnellement je suis très satisfait du Travail de Mardoxhée,...
+          </p>
+          <h6>
+            Chiruza chris <span>DG Radio Kivu</span>
+          </h6>
+        </div>
       </div>
     </Avis>
   );
