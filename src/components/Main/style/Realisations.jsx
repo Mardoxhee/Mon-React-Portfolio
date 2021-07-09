@@ -57,6 +57,7 @@ const Realisation = styled.section`
       padding: 10px 20px;
       &:focus {
         outline: none;
+        background-color: #f55422;
       }
       &:hover {
         background-color: #f55422;
@@ -67,6 +68,8 @@ const Realisation = styled.section`
   .projets--wrapper {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
   }
   .card {
     margin: 20px;

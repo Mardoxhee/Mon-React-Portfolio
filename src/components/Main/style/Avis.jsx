@@ -47,6 +47,7 @@ const Avis = styled.section`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
     img {
       margin-top: 15px;
       margin-bottom: 15px;

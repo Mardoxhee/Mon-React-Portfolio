@@ -38,7 +38,9 @@ const SectionAbout = () => {
             quasi! Maiores, itaque. Error officiis a doloribus!
             <br />
           </p>
-          <a href="google.cd">GET MY CV</a>
+          <a className=' data-aos="fade-right"' href="google.cd">
+            GET MY CV
+          </a>
         </div>
       </div>
     </About>

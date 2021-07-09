@@ -117,5 +117,8 @@ const About = styled.section`
       transition: all 0.5s ease-in-out 0s;
     }
   }
+  .img_contenair {
+    box-sizing: border-box;
+  }
 `;
 export default About;
