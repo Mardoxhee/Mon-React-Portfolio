@@ -1,6 +1,6 @@
 import React from "react";
 import Services from "./style/Services";
-import bg from "./bg.jpg";
+
 
 const SectionServices = () => {
   return (
