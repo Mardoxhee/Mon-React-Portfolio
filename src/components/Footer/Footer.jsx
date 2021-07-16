@@ -30,7 +30,7 @@ const Footer = () => {
       </div>
 
       <p>
-        Copyright © 2020 - All Right Reserved. <br />
+        Copyright © 2021 - All Right Reserved. <br />
         Designed by Mardoxhée Ben Tahar LUVIKI
       </p>
     </Foot>

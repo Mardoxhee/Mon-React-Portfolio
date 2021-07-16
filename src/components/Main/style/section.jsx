@@ -30,10 +30,12 @@ const Section = styled.section`
     letter-spacing: 3px;
     width: 450px;
     margin: 10px;
+
   }
   h1 {
     font-size: 3rem;
     font-weight: 500;
+    
   }
   a {
     text-decoration: none;
@@ -71,6 +73,45 @@ const Section = styled.section`
       cursor: pointer;
     }
   }
+
+  ///responsive
+
+  @media only screen and (max-width: 991px) {
+  h1 {
+    margin-top:10px;
+    font-size:2.5rem;
+  }
+ .welcome{
+   width:350px;
+   margin-bottom:20px;
+   
+ }
+
+button{
+  
+  padding:4px ;
+  max-width:135px;
+  :focus{
+    background-color:#df5127;
+  }
+}
+.buttonFlex{
+  margin-top:50px;
+  margin-bottom:-50px;
+  display:flex;
+  padding-left:20px;
+  padding-right:30px;
+  
+} 
+}
+
 `;
+
+
+
+
+
+
+
 
 export default Section;

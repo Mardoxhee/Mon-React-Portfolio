@@ -1,10 +1,12 @@
 import React from "react";
 import Section from "./style/section";
+import cvpdf from '../assets/upload/cvlvk.pdf';
+
 
 const SectionPresentation = () => {
   return (
     <Section>
-      <span className="welcome welcome animate__animated animate__fadeIn animate__delay-1s">
+      <span className="welcome  animate__animated animate__fadeIn animate__delay-1s">
         WELCOME TO MY PORTFOLIO WEBSITE
       </span>
       <h1 className="welcome animate__animated animate__fadeIn animate__delay-2s ">
@@ -32,13 +34,18 @@ const SectionPresentation = () => {
           </a>
         </span>
       </div>
-      <div>
-        <button className="welcome animate__animated animate__fadeIn animate__delay-4s">
+      <div className="buttonFlex">
+        <a href="mailto:MardoxheeLuviki@gmail.com?subject=Demande d'informations">
+        <button className="welcome animate__animated animate__fadeIn animate__delay-4s" >
           Hire me
         </button>
+        
+        </a>
+        <a href={cvpdf} download="cvlvk.pdf">
         <button className="welcome animate__animated animate__fadeIn animate__delay-5s">
-          Download cv
-        </button>
+          Get my CV 
+        </button> 
+        </a>
       </div>
       <div>
         <a href="#projets">

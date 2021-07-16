@@ -14,7 +14,7 @@ const Realisations = () => {
 
       <div className="projets--wrapper">
         <div className="card">
-          <img src={bg} alt="" />
+          <img src={bg} alt=""  />
           <div>
             <h4>Projet Title</h4>
             <p>Projets details</p>

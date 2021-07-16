@@ -78,12 +78,20 @@ const About = styled.section`
     }
   }
   .img_contenair {
+    display:flex;
+    justify-content:center;
+    align-items:center;
     border: 15px solid #fff;
     border-radius: 5px;
     height: 391px;
     width: 510px;
     background-color: #f9eff0;
+    overflow:hidden;
     margin: 30px;
+    img{
+    height:400px;
+    width:300px;
+  }
   }
   a {
     margin-top: 25px;
@@ -117,5 +125,7 @@ const About = styled.section`
       transition: all 0.5s ease-in-out 0s;
     }
   }
+
+
 `;
 export default About;

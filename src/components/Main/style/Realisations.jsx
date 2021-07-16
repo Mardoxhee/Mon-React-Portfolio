@@ -74,6 +74,12 @@ const Realisation = styled.section`
     margin: 20px;
     width: 350px;
     height: 410px;
+    overflow: hidden;
+    border:1px solid #fff;
+    /* :hover{
+      border:#f55422 solid 2px;
+      transition: all 500ms ease;
+    } */
     div {
       height: 30%;
       padding: 15px;
@@ -87,6 +93,12 @@ const Realisation = styled.section`
     img {
       width: 100%;
       height: 70%;
+      &:hover {
+    animation: pulse;
+    animation-duration: 0.5s;
+
+    cursor: pointer;
+  }
     }
     h4 {
       font-size: 1.5rem;

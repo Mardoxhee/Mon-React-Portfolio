@@ -1,5 +1,6 @@
 import React from "react";
 import About from "./style/SectionAbout";
+import pic from './pic.png'
 
 const SectionAbout = () => {
   return (
@@ -8,8 +9,8 @@ const SectionAbout = () => {
         About me
       </h2>
       <div className="wrapper">
-        <div className="img_contenair welcome animate__animated animate__fadeIn animate__delay-4s">
-          <img src="" alt="" />
+        <div className="  img_contenair welcome animate__animated animate__fadeIn animate__delay-4s">
+          <img src={pic} alt="" />
         </div>
         <div>
           <h3 className="welcome animate__animated animate__fadeIn animate__delay-5s">
