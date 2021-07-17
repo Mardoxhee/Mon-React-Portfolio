@@ -74,7 +74,7 @@ const Section = styled.section`
     }
   }
 
-  ///responsive
+  ///responsie mobile
 
   @media only screen and (max-width: 991px) {
   h1 {
